@@ -24,4 +24,5 @@ function keyPressed() {
     if (keyCode == 32) {
         isLooping() ? noLoop() : loop()
     }
+    return false;
 }
