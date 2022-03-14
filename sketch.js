@@ -19,3 +19,9 @@ function draw() {
 function mouseClicked() {
     redraw()
 }
+
+function keyPressed() {
+    if (keyCode == 32) {
+        isLooping() ? noLoop() : loop()
+    }
+}
