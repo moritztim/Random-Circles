@@ -1,5 +1,6 @@
 function setup() {
     createCanvas(600, 400);
+    noStroke()
 }
 
 function randRange(min, max) {
