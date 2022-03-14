@@ -15,3 +15,7 @@ function draw() {
         circle(randRange(0, 600), randRange(0, 400), 24)
     }
 }
+
+function mouseClicked() {
+    redraw()
+}
