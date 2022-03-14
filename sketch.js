@@ -10,7 +10,7 @@ function randRange(min, max) {
 
 function draw() {
     background(0, 0, 0);
-    for (let i = 0; i < randRange(100, 200); i++) {
+    for (let i = 0; i < randRange(10, 400); i++) {
         fill(randRange(100, 255), 0, randRange(100, 190), 255 / 2)
         circle(randRange(0, 600), randRange(0, 400), 24)
     }
