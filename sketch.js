@@ -2,6 +2,7 @@ function setup() {
     createCanvas(600, 400);
     noStroke()
     noLoop()
+    frameRate(3)
 }
 
 function randRange(min, max) {
