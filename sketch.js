@@ -17,7 +17,7 @@ function draw() {
 }
 
 function mouseClicked() {
-    redraw()
+    islooping() ? loop : redraw()
 }
 
 function keyPressed() {
